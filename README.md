@@ -2,13 +2,22 @@
 
 A cheatsheet for my preferred xscreensaver settings.
 
+## Table of Contents:
+
+* [Display Modes](https://github.com/yesmaybenookay/xscreensaver-settings#display-modes)
+* [Advanced Settings](https://github.com/yesmaybenookay/xscreensaver-settings#advanced-settings)
+* [Enabled Screensavers](https://github.com/yesmaybenookay/xscreensaver-settings#enabled-screensavers)
+* [Screensaver  Specific Advanced Settings](https://github.com/yesmaybenookay/xscreensaver-settings#screensaver-specific-advanced-settings)
+    * [Apple 2](https://github.com/yesmaybenookay/xscreensaver-settings#apple-2-settings)
+    * [maze3d](https://github.com/yesmaybenookay/xscreensaver-settings#maze3d-settings)
+    * [Phosphor](https://github.com/yesmaybenookay/xscreensaver-settings#phosphor-settings)
+
 ## Display Modes:
 
 * Mode: Random Screensaver
 * Blank After: 5 minutes
 * Cycle After: 5 minutes
 * Lock Screen After: disabled
-
 
 ## Advanced Settings:
 
@@ -23,7 +32,6 @@ A cheatsheet for my preferred xscreensaver settings.
 OR
 
 * Program - `fortune` or `fortune -s`
-
 
 ## Enabled Screensavers:
 
@@ -60,7 +68,6 @@ OR
 * XFlame
 * XMatrix
 
-
 ## Screensaver Specific Advanced Settings:
 
 ### Apple 2 Settings:
@@ -81,7 +88,6 @@ apple2 -text -program 'cat /dev/random'
 apple2 -root -mode text -tv-color 400 -tv-tint 9 -tv-brightness -34.1667 -tv-contrast 263 -program 'cd /PATH/TO/reADDer/ && python reADDer.py'
 ```
 
-
 ### maze3d Settings:
 
 #### Default Options:
@@ -99,7 +105,6 @@ floor] [-drop-acid-ceiling] [-inverters number] [-rats number]
 ```sh
 maze3d -root -speed 1.21 -rows 21 -columns 21 -drop-acid -wall-texture PATH/TO/WALL_TEXTURE.jpg -floor-texture PATH/TO/FLOOR_TEXTURE.jpg -ceiling-texture PATH/TO/CEILING_TEXTURE.jpg -inverters 21 -rats 21
 ```
-
 
 ### Phosphor Settings:
 
